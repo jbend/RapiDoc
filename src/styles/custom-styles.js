@@ -6,5 +6,10 @@ customize their theme. Simply add your css to this file and yarn build.
 */
 
 export default css`
-
+:host {
+  --bg: #171c1e;
+  --light-bg: #ffffff;
+  --fg: #ffffff;
+  --light-fg: #252a2e;
+}
 `;
